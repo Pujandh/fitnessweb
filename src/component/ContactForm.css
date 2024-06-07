@@ -1,0 +1,65 @@
+/* ContactForm.css */
+
+.background-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 500px; /* Adjust the height as needed */
+  background-image: url('../component/images/formbackground.jpg'); /* Adjust the path to your actual image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px; /* Adjust as needed */
+  width: 100%;
+}
+
+.contact {
+  margin-bottom: 20px; /* Space between the contact div and the form */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Add a border for better visibility */
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

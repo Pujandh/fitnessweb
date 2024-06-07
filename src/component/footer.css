@@ -1,0 +1,45 @@
+/* footer.css */
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: rgb(44, 13, 67);
+  color: white;
+  padding: 20px;
+  border-top: 2px solid #ccc;
+}
+
+.footer div {
+  flex: 1; /* Each div takes equal space */
+  padding: 10px;
+  text-align: center;
+}
+
+.footer1, .footer2, .footer3 {
+  flex: 1; /* Ensures equal space distribution */
+}
+
+.footer1 h1, .footer2 h1, .footer3 h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer3 ul {
+  list-style: none;
+  display: block; /* Display images horizontally */
+  justify-content: center; /* Center the images horizontally */
+  padding: 0;
+  margin: 0;
+}
+
+.footer3 ul li {
+  margin: 0;
+  padding: 0 4px; /* Add 4px margin on left and right */
+}
+
+.footer3 {
+  width: 30%; /* Set width to 30% */
+  height: auto; /* Maintain aspect ratio */
+}
+
