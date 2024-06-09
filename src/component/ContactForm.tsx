@@ -9,12 +9,10 @@ const FormComponent: React.FC = () => {
   const [message, setMessage] = useState<string>('');
   const [loading, setLoading] = useState<boolean>(false);
 
-  // Function to handle form submission
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
     setLoading(true);
 
-    // Replace with your API endpoint and API key if needed
     const apiEndpoint = 'https://ena8de7hm7jd.x.pipedream.net/';
 
     // Data to be sent to the API
