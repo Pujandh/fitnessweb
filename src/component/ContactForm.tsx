@@ -14,7 +14,6 @@ const FormComponent: React.FC = () => {
     event.preventDefault();
     setLoading(true);
 
-    
     const apiEndpoint = 'https://ena8de7hm7jd.x.pipedream.net/';
 
     
