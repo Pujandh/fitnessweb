@@ -24,7 +24,7 @@ const Aboutus = () => {
     <div className='aboutus'>
   
       <div className='aboutimage'>'<img src={image1} alt="Yoga" /></div>
-      <div>Lorem, ipsum dolor sit amet
+      <div>Fitness app About us<br/>
          consectetur<br/> adipisicing elit.
          Cumque ipsam ab dolorem <br/>esse possimus ut obcaecati nam eligendi,
          minima <br/>suscipit voluptatibus quidem
