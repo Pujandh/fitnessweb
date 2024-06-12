@@ -1,4 +1,5 @@
-.navbar {position: absolute;
+.navbar {
+    position: absolute;
     top: 0%;
     width: 100%;
     min-height: 12vh;
@@ -8,36 +9,53 @@
     align-items: center;
     background-color: #eee;
     transition: all 0.7s ease-in;
-    font-size: x-large
-}
-
-.scrolled {
+    font-size: x-large;
+  }
+  
+  .scrolled {
     position: fixed;
     top: 0;
     left: 0;
     background-color: lightblue;
-}
-.hidden{
+  }
+  
+  .hidden {
     display: none;
-}
-
-
-.logo h1{
+  }
+  
+  .logo h1 {
     justify-content: flex-start;
     width: 50px;
     font-size: 4ex;
-}
-.navigation{
+  }
+  
+  .navigation {
     justify-content: center;
-}
-
-.navigation ul li {
+  }
+  
+  .navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation ul li {
     display: inline;
     padding: 14px 20px;
-   
-    
-   
-} 
-.hidden{
-    display: none;
-}
+    position: relative;
+  }
+  
+  .navigation ul li:hover {
+    background-color: rgb(44, 13, 67);
+  }
+  
+  .navigation ul li:hover a {
+    color: whitesmoke; /* Change the font color to white on hover */
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease; /* Smooth transition for font color */
+  }
+  
